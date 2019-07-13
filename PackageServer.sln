@@ -5,19 +5,6 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageServer", "PackageServer\PackageServer.csproj", "{70F39ED5-5EFF-4F61-A4C0-24897D664F9B}"
 EndProject
-Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "server", "..\..\..\..\..\..\Program Files (x86)\Westwood\RenegadeFDS\Server\server.exe", "{1607BD68-00AA-45A8-9480-453F97EE96B2}"
-	ProjectSection(DebuggerProjectSystem) = preProject
-		PortSupplier = 00000000-0000-0000-0000-000000000000
-		Executable = C:\Program Files (x86)\Westwood\RenegadeFDS\Server\server.exe
-		RemoteMachine = DESKTOP-T5JKDPA
-		StartingDirectory = C:\Program Files (x86)\Westwood\RenegadeFDS\Server
-		Environment = Default
-		LaunchingEngine = 92ef0900-2251-11d2-b72e-0000f87572ef
-		UseLegacyDebugEngines = No
-		LaunchSQLEngine = No
-		AttachLaunchAction = No
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -28,8 +15,6 @@ Global
 		{70F39ED5-5EFF-4F61-A4C0-24897D664F9B}.Debug|x86.Build.0 = Debug|x86
 		{70F39ED5-5EFF-4F61-A4C0-24897D664F9B}.Release|x86.ActiveCfg = Release|x86
 		{70F39ED5-5EFF-4F61-A4C0-24897D664F9B}.Release|x86.Build.0 = Release|x86
-		{1607BD68-00AA-45A8-9480-453F97EE96B2}.Debug|x86.ActiveCfg = Release|x86
-		{1607BD68-00AA-45A8-9480-453F97EE96B2}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
